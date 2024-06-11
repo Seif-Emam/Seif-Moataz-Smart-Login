@@ -1,0 +1,93 @@
+body{
+
+    background-color: #24353F;
+}
+
+.log-out-div{
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+
+}
+
+ .user-welcome{
+
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  margin-block: 300px !important;
+}
+
+h1{
+    color: #17A2B8;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.sing-up-div {
+    padding: 3rem;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    margin-block: 50px;
+    margin-left: 100px;
+}
+
+.sing-up-div ::placeholder {
+    color: #ffffff9a;
+    opacity: 1; /* Firefox */
+  }
+
+.sing-up-div  .form-control{
+    background-color: transparent !important;
+    border: 1px solid #ced4da; 
+     color: #fff !important;
+    border-radius: .25rem;
+    
+}
+
+.sing-up-div button{
+  
+    font-size: "Titillium Web", sans-serif
+    ;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+}
+ 
+.userName{
+  color: #17A2B8;
+}
+
+.sing-up-div button:hover{
+color: #fff;
+ background-color: #17A2B8;
+}
+
+.sing-up-div a{
+    text-decoration: none;
+    }
+
+    .sing-up-div a:hover{
+        text-decoration: underline;
+
+     
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+
+
+     
+
+    .sign-in {
+        display: none;
+      }
+      .sing-up-div.active .sign-in {
+        display: block;
+      }
+      .sing-up-div.active .sign-up {
+        display: none;
+      }
+
